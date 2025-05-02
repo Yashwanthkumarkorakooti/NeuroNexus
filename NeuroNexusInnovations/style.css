@@ -1,0 +1,54 @@
+body {
+    background-color: #f0f2f5;
+    font-family: Arial, sans-serif;
+  }
+
+  form {
+    background-color: #ffffff;
+    width: 400px;
+    margin: 40px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+
+  label {
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+
+  input, textarea, select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+
+  .radio-group label{
+    margin-top: 5px;
+    font-weight: normal;
+    padding: auto;
+  }
+
+  .radio-option {
+    display: inline-flex;
+    align-items: center;
+    margin-right: 15px;
+  }
+
+  button {
+    padding: 10px 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  button:hover {
+    background-color: #0056b3;
+  }
